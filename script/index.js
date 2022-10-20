@@ -79,8 +79,8 @@ let idade = parseInt(prompt("Escreva a sua idade"));
 let setor = (prompt("Escreva o setor a qual presta serviços"));
 alert(`Nome: ${nomeSobrenome} - Idade: ${idade} - Setor: ${setor}`);
 
-alert(`Page made by: Lucas Maclean`);
-
+alert(`Page made by: Lucas Maclean.`);
+alert(`Página de aprendizado e execução de variáveis e alertas.`);
 
 
 
