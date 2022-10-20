@@ -24,12 +24,24 @@ let comprimento = parseFloat(prompt("Qual o comprimento?"));
 let largura = parseFloat(prompt("Qual a largura?"));
 let altura = parseFloat(prompt("Qual a altura?"));
 let volume = `${comprimento}` * `${largura}` * `${altura}`;
-alert(`O volume é de: ${volume}m³`)
+alert(`O volume é de: ${volume}m³`);
 
+// Quinta Tarefa
 
+let valorInteiro = parseInt(prompt("Qual o valor inteiro?"));
+let elevadoAoQuadrado = (valorInteiro * valorInteiro);
+alert(`O valor ${valorInteiro} ao quadrado é ${elevadoAoQuadrado}`);
 
+// Sexta Tarefa
 
-
+let valor1 = parseFloat(prompt("Escreva o primeiro número"));
+let valor2 = parseFloat(prompt("Escreva o segundo número"));
+let valor3 = parseFloat(prompt("Escreva o terceiro número"));
+let valor4 = parseFloat(prompt("Escreva o quarto número"));
+let valor5 = parseFloat(prompt("Escreva o quinto número"));
+let somaValores = (valor1 + valor2 + valor3 + valor4 + valor5)
+let mediaValores = somaValores / 5
+alert(`A soma dos valores informador é: ${somaValores} e a média das notas é: ${mediaValores}`)
 
 
 
