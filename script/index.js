@@ -60,20 +60,26 @@ alert(`Esse texto tem ${comprimentoFrase} caracteres`)
 
 // Nona Tarefa 
 
-let frasePalavra = (prompt("Escreva uma palavra ou frase"));
-let primeiraLetra = frasePalavra[0].toLocaleUpperCase();
-let ultimaLetra = frasePalavra[frasePalavra.length -1].toLocaleLowerCase();
+let frasePalavra = (prompt("Escreva uma frase ou palavra"));
+let primeiraLetra = frasePalavra[0].toUpperCase();
+let ultimaLetra = frasePalavra[frasePalavra.length -1].toLowerCase();
 alert(`A primeira letra deste texto é ${primeiraLetra} e a última é a ${ultimaLetra}`);
 
-// Obs: Para deixar o texto em caixa alta usa-se o "toLocaleUpperCase()" e para deixar em
-//caixa baixa usa-se o "toLocaleLowerCase()"
+// Obs: Para deixar o texto em caixa alta usa-se o "toUpperCase()" e para deixar em
+//caixa baixa usa-se o "toLowerCase()"
 
 // Obs 2: Para calcular e armazenar a ultima letra de uma frase/palavra usa-se o "[]" e
 //dentro dele chamasse a variável e acrescenta ".length -1"
 // Exemplo: [frasePalavra.length -1]
 
+// Décima Tarefa
 
+let nomeSobrenome = (prompt("Escreva o seu nome e sobrenome")).toUpperCase();
+let idade = parseInt(prompt("Escreva a sua idade"));
+let setor = (prompt("Escreva o setor a qual presta serviços"));
+alert(`Nome: ${nomeSobrenome} - Idade: ${idade} - Setor: ${setor}`);
 
+alert(`Page made by: Lucas Maclean`);
 
 
 
