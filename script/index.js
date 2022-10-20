@@ -47,12 +47,16 @@ alert(`A soma dos valores informador é: ${somaValores} e a média das notas é:
 
 let inteiro1 = parseInt(prompt("Escreva o primeiro número inteiro"));
 let inteiro2 = parseInt(prompt("Escreva o segundo valor inteiro"));
-let restoDivisao = (inteiro1 % inteiro2 )
-alert(`O resto da divisão de ${inteiro1} por ${inteiro2} é: ${restoDivisao}`)
+let restoDivisao = (inteiro1 % inteiro2);
+alert(`O resto da divisão de ${inteiro1} por ${inteiro2} é: ${restoDivisao}`);
 
 // Obs: Para calcular o resto usa-se o sinal de percentagem %
 
+// Oitava Tarefa 
 
+let palavraFrase = (prompt("Escreva uma palavra ou frase"));
+let comprimentoFrase = palavraFrase.length;
+alert(`Esse texto tem ${comprimentoFrase} caracteres`)
 
 
 
